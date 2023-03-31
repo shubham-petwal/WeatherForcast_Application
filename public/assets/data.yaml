@@ -1,0 +1,18 @@
+fields:
+  - name: name
+    label: Name
+    component: 'input'
+  - name: gender
+    label: Gender
+    component: 'input-radio'
+    options:
+      - value: 'male'
+        label: 'Male'
+      - value: 'female'
+        label: 'Female'
+  - name: last name
+    label: Last Name
+    component: 'input'
+  - name: Email 
+    label: Email  
+    component: 'input-email'
